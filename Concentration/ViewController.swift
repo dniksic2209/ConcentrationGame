@@ -56,8 +56,7 @@ class ViewController: UIViewController {
         
         if !(emojiDict[identifier] != nil), emojiArray.count > 0
         {
-            let randomIndex = Int(arc4random_uniform(UInt32(emojiArray.count)))
-            emojiDict[identifier] = emojiArray.remove(at: randomIndex)
+            emojiDict[identifier] = emojiArray.remove(at: emojiArray.count.randomNumberWithRange)
         }
         return emojiDict[identifier] ?? "?"
     }

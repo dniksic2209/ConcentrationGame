@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3607168220B491C800316180 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3607168120B491C800316180 /* Extensions.swift */; };
 		3680C3D420B2011600649A14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3680C3D320B2011600649A14 /* AppDelegate.swift */; };
 		3680C3D620B2011600649A14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3680C3D520B2011600649A14 /* ViewController.swift */; };
 		3680C3D920B2011600649A14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3680C3D720B2011600649A14 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3607168120B491C800316180 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		3680C3D020B2011600649A14 /* Concentration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Concentration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3680C3D320B2011600649A14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3680C3D520B2011600649A14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				3680C3DF20B2011700649A14 /* Info.plist */,
 				36D4E94E20B35E930038C271 /* Card.swift */,
 				36D4E95020B360AE0038C271 /* Concentration.swift */,
+				3607168120B491C800316180 /* Extensions.swift */,
 			);
 			path = Concentration;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3607168220B491C800316180 /* Extensions.swift in Sources */,
 				3680C3D620B2011600649A14 /* ViewController.swift in Sources */,
 				36D4E95120B360AE0038C271 /* Concentration.swift in Sources */,
 				36D4E94F20B35E930038C271 /* Card.swift in Sources */,
