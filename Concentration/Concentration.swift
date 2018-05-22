@@ -10,9 +10,9 @@ import Foundation
 
 class Concentration {
     
-    var cards = [Card]()
+    private(set) var cards = [Card]()
     
-    var indexOfOneAndOnlyOneFlipedCard: Int?
+    private var indexOfOneAndOnlyOneFlipedCard: Int?
     
     func chooseCard(index: Int)
     {

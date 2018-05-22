@@ -10,9 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    lazy var game = Concentration(numberOfPairOfCards: cardButtons.count / 2)
+    private lazy var game = Concentration(numberOfPairOfCards: cardButtons.count / 2)
     
-    var flipCount = 0
+    private var flipCount = 0
     {
         didSet{
             flipCountLabel.text = "Flip count: \(flipCount)"
@@ -33,7 +33,7 @@ class ViewController: UIViewController {
         }
     }
     
-    func updateUIFromModel(){
+    private func updateUIFromModel(){
         for index in cardButtons.indices
         {
             let button = cardButtons[index]
@@ -49,10 +49,10 @@ class ViewController: UIViewController {
         }
     }
     
-    var emojiArray = ["🙄","🤢","🤠","👿","👹","🤡","💩","👻","🎃","😻","👍","💋","👣","👠","🌹"]
-    var emojiDict = [Int:String]()
+    private var emojiArray = ["🙄","🤢","🤠","👿","👹","🤡","💩","👻","🎃","😻","👍","💋","👣","👠","🌹"]
+    private var emojiDict = [Int:String]()
     
-    func setEmoji(for identifier: Int) -> String {
+    private func setEmoji(for identifier: Int) -> String {
         
         if !(emojiDict[identifier] != nil), emojiArray.count > 0
         {
